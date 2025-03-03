@@ -37,11 +37,10 @@
       },
       "links": []
     }
-  ]
-  ,
-    "button": {
-        "visible": false,
-        "label": "Load More",
-        "initiallyShownProjects": 3
-    }
+  ],
+  "button": {
+    "visible": false,
+    "label": "Load More",
+    "initiallyShownProjects": 3
+  }
 }

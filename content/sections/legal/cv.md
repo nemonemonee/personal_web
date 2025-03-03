@@ -24,8 +24,8 @@ Sep. 2018 – Jun. 2022
 
 ### 🔬 Work Experiences
 #### Cloud Resilience Engineer
-**PingCAP Company**
-*&#8203;San Jose, CA&#8203;*
+**PingCAP Company**  
+*San Jose, CA*  
 Nov. 2024 - Present
 - Developed a RESTful API using FastAPI and SQLAlchemy for an AIOps system, enabling automated issue mitigation.
 - Employed LangChain to process and embed historical issue reports from Jira; built a Multi Vector Retriever with FAISS; developed a RAG chatbot powered by GPT-4o, allowing IT teams to query past incidents and automate mitigation strategies.
@@ -56,7 +56,7 @@ May 2021 – Sep. 2021
 - Utilized Qt to develop a cross-platform GUI for medical professionals, integrating model predictions to enhance diagnostics.
 
 #### Data Scientist Intern 	
-**Today’s Vision**	
+**Today's Vision**	
 *Suzhou, China*
 Jun. 2019 – Aug. 2019
 - Leveraged A/B testing and regression analysis to optimize ad targeting, boosting click-through rates by 15%.
@@ -65,7 +65,7 @@ Jun. 2019 – Aug. 2019
 ---
 
 ### 🏆 Publications & Achievements
-- Li, M., *Kong, L.*, & Kriegman, S., “Generating Freeform Endoskeletal Robots,” In the International Conference on Learning Representations (ICLR 2025). Selected as a *Spotlight Paper*. [Open Review](https://openreview.net/forum?id=awvJBtB2op).
+- Li, M., *Kong, L.*, & Kriegman, S., "Generating Freeform Endoskeletal Robots," In the International Conference on Learning Representations (ICLR 2025). Selected as a *Spotlight Paper*. [Open Review](https://openreview.net/forum?id=awvJBtB2op).
 
 - **Silver Medalist** in Kaggle Competition: LEAP - Atmospheric Physics using AI (ClimSim), July 2024. [Placed 47th out of 693 teams](https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523105).
 
@@ -82,7 +82,7 @@ Jun. 2019 – Aug. 2019
 
 #### **Fine-Tuning LLMs for Complex Tasks**  
 **Northwestern University | Jan. 2023– July 2024**
-- Enhanced summarization models’ generalizability across different domains; utilized Sentence-BERT to embed and retrieve the most relevant documents; incrementally fine-tune the PEGASUS model on the selected documents and improved the ROUGE scores (R-1/R-2/R-L) from 34/14/24 to 35/17/27.
+- Enhanced summarization models' generalizability across different domains; utilized Sentence-BERT to embed and retrieve the most relevant documents; incrementally fine-tune the PEGASUS model on the selected documents and improved the ROUGE scores (R-1/R-2/R-L) from 34/14/24 to 35/17/27.
 - Developed a system to retrieve the prompt giving a pair of unmodified and modified texts; generated training data using Gemini; fine-tuned the Mistral model with LoRA, increasing the similarity score from 0.59 to 0.66.
 
 #### **3D Farming Game Demo**  
@@ -94,7 +94,7 @@ Jun. 2019 – Aug. 2019
 **University of Washington | Jan. – Mar. 2022**
 - Developed a novel model for predicting the Unicode character with a top-three accuracy rate of 36.1% across 9 languages.
 - Implemented a Recurrent Neural Network with Long Short-Term Memory cells within PyTorch framework to make the word-level prediction.
-- Optimized the model’s performance by integrating a Trie data structure for efficient character-level pruning.
+- Optimized the model's performance by integrating a Trie data structure for efficient character-level pruning.
 
 #### **Big Data Analysis Summer School**  
 **University College of London, UK | July 2019**
@@ -105,13 +105,13 @@ Jun. 2019 – Aug. 2019
 ---
 
 ### 🎨 Extracurricular Activities
-#### “One Day” Project, Weget Magzine
+#### "One Day" Project, Weget Magzine
 **Group Leader**  
 *Seattle, WA*  
 Aug. 2019 - Aug. 2022
-- Researched and Crafted 23 articles to uncover various ways to spend “One Day” in Seattle, including hidden gems in the city with the focus on culturally diverse neighborhoods, local festivals, and unconventional shops.
+- Researched and Crafted 23 articles to uncover various ways to spend "One Day" in Seattle, including hidden gems in the city with the focus on culturally diverse neighborhoods, local festivals, and unconventional shops.
 - Promoted cross-cultural environment and encouraged over 2,500 readers to explore outside their comfort zones through compelling storytelling and narratives.
-- Led and coordinated a team of 10 contributors, ensuring multidisplinary collaboration, timely content delivery, and alignment with magazine’s vision.
+- Led and coordinated a team of 10 contributors, ensuring multidisplinary collaboration, timely content delivery, and alignment with magazine's vision.
 
 #### Major Fair, University of Washington
 **Organizer**  
