@@ -24,8 +24,8 @@ Sep. 2018 – Jun. 2022
 
 ### 🔬 Work Experiences
 #### Cloud Resilience Engineer
-**PingCAP**
-*San Jose, CA*
+**PingCAP Company**
+*&#8203;San Jose, CA&#8203;*
 Nov. 2024 - Present
 - Developed a RESTful API using FastAPI and SQLAlchemy for an AIOps system, enabling automated issue mitigation.
 - Employed LangChain to process and embed historical issue reports from Jira; built a Multi Vector Retriever with FAISS; developed a RAG chatbot powered by GPT-4o, allowing IT teams to query past incidents and automate mitigation strategies.
@@ -65,7 +65,7 @@ Jun. 2019 – Aug. 2019
 ---
 
 ### 🏆 Publications & Achievements
-- Li, M., *Kong, L.*, & Kriegman, S., “Generating Freeform Endoskeletal Robots,” In the International Conference on Learning Representations (ICLR 2025). Selected as a *Highlight Paper*. [Open Review](https://openreview.net/forum?id=awvJBtB2op).
+- Li, M., *Kong, L.*, & Kriegman, S., “Generating Freeform Endoskeletal Robots,” In the International Conference on Learning Representations (ICLR 2025). Selected as a *Spotlight Paper*. [Open Review](https://openreview.net/forum?id=awvJBtB2op).
 
 - **Silver Medalist** in Kaggle Competition: LEAP - Atmospheric Physics using AI (ClimSim), July 2024. [Placed 47th out of 693 teams](https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523105).
 

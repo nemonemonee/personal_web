@@ -4,7 +4,7 @@
       "visible": true,
       "category": "🔬 Research Project",
       "title": "Generating Freeform Endoskeletal Robots",
-      "description": "Selected as a *Highlight Paper* at the *International Conference on Learning Representations (ICLR) 2025*",
+      "description": "Selected as a *Spotlight Paper* at the International Conference on Learning Representations (ICLR) 2025.",
       "tags": ["Gnerative Models", "Bayesian Optimization", "Evolutionary Algorithms"],
       "image": {
         "src": "../../images/endo.png",
