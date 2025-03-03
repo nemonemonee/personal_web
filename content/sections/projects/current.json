@@ -3,30 +3,39 @@
     {
       "visible": true,
       "category": "🔬 Research Project",
-      "title": "Endoskeletal Robot Simulation",
-      "description": "To be submitted to the *International Conference on Learning Representations (ICLR) 2025*",
+      "title": "Generating Freeform Endoskeletal Robots",
+      "description": "Selected as a *Highlight Paper* at the *International Conference on Learning Representations (ICLR) 2025*",
       "tags": ["Gnerative Models", "Bayesian Optimization", "Evolutionary Algorithms"],
       "image": {
         "src": "../../images/endo.png",
         "alt": "endo",
-        "linkTo": ""
+        "linkTo": "https://endoskeletal.github.io/"
       },
       "links": [
+        {
+          "type": "external",
+          "title": "OpenReview",
+          "url": "https://openreview.net/forum?id=awvJBtB2op"
+        },
+        {
+          "type": "github",
+          "title": "Project Page",
+          "url": "https://endoskeletal.github.io/"
+        }
       ]
     },
     {
       "visible": true,
-      "category": "🔬 Research Project",
-      "title": "Text-To-Robot",
-      "description": "Text-to-Robot leverages text prompts to automatically generate robot designs and training reward functions.",
-      "tags": ["LLMs", "LangChain", "Text-To-3D", "Robotics"],
+      "category": "💼 Industry Project",
+      "title": "AIOps System",
+      "description": "Our AIOps System is an intelligent platform that uses LLMs to automate the issue mitigation process. It results in 33% reduction in on-call workload.",
+      "tags": ["FastAPI", "LangChain", "FAISS", "SQLAlchemy"],
       "image": {
-        "src": "../../images/t2r.png",
-        "alt": "t2r",
+        "src": "../../images/tidb.png",
+        "alt": "aiops",
         "linkTo": ""
       },
-      "links": [
-      ]
+      "links": []
     }
   ]
   ,

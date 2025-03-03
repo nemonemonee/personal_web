@@ -23,64 +23,72 @@ Sep. 2018 – Jun. 2022
 ---
 
 ### 🔬 Work Experiences
-#### Xenobot Lab, Northwestern University  
-**Researcher**  
+#### Cloud Resilience Engineer
+**PingCAP**
+*San Jose, CA*
+Nov. 2024 - Present
+- Developed a RESTful API using FastAPI and SQLAlchemy for an AIOps system, enabling automated issue mitigation.
+- Employed LangChain to process and embed historical issue reports from Jira; built a Multi Vector Retriever with FAISS; developed a RAG chatbot powered by GPT-4o, allowing IT teams to query past incidents and automate mitigation strategies.
+- Reduced the average on-call workload by 33% through improved automation and intelligent issue resolution.
+
+#### Research Assistant
+**Xenobot Lab, Northwestern University**  
 *Evanston, IL*  
 Mar. 2023 - Present
-- Lead a group of 3 in the Text-to-Robot initiative, pioneering the application of Large Language Models (LLMs) in robotics; designed a novel pipeline that automates robot design and training using text prompt. 
-- Designed and optimized prompts using in-context learning and Chain of Thought prompting within the LangChain framework, improving text-to-3D generation quality and generating reward functions for robot training. 
-- Applied CMA-ES evolutionary algorithms to explore complex design spaces and evolve text-generated robots. 
-- Collaborated with a team of 5 to develop a Soft-and-Rigid Simulator, focusing on generating and simulating animal-like robots with freeform endoskeletal structures. Utilized variational autoencoders and Bayesian optimization to innovate in freeform robot design.
+- Encoded complex robot designs into a latent space using a VAE, enabling adaptive robot evolution in diverse environments; batch-trained VAEs on a cluster of 16 H100 GPUs, using Docker and PyTorch Lightning for efficient distributed training.
+- Achieved a 20x speedup in synthetic dataset generation by vectorizing calculations and shifting it to GPU using PyTorch.
+- Developed and implemented a universal controller using a graph transformer, trained with reinforcement learning.
+- Built project page using HTML and CSS, providing a visually engaging platform to showcase research findings: [Project Page](https://endoskeletal.github.io/).
 
-#### TrackView Company  
-**Backend Software Engineer Intern**  
+#### Backend Engineer Intern  
+**TrackView Company**  
 *&#8203;Remote&#8203;*  
 Oct. 2021 – Feb. 2022
-- Migrated the video conference application, TeamLink, from Docker to Podman to decrease the reliance on Docker.
-- Participated in the project of adding speech recognition functions as a new feature to the app.
+- Authored 10+ Dockerfiles to standardize Dev, Test, and Prod environments for the video conferencing application, TeamLink.
+- Automated 50+ test cases using GitHub Actions, improving testing efficiency and reducing manual effort by 40%.
 
-#### Chinese Academy of Sciences, Suzhou Institute of Biomedical Engineering and Technology  
-**Machine Learning & Software Engineer Intern**  
+#### Machine Learning Intern
+**Chinese Academy of Sciences, Suzhou Institute of Biomedical Engineering and Technology**  
 *Suzhou, China*  
 May 2021 – Sep. 2021
-- Collaborated with a team of 9 to manage the Digital Breast Tomosynthesis (DBT) project by proposing and testing a novel deep learning model, achieving an unprecedented 80% accuracy.
-- Enhanced a convolutional neural network with transformer-based attention mechanism for 3D medical image classification tasks and co-authored an academic paper in IEEE.
-- Developed a graphical user interactive application for medical professionals to view 3D breast images along with model predictions, improving diagnostic efficiency. 
+- Implemented data pipelines for preprocessing large-scale medical image datasets, reducing processing time by 60%.
+- Combined 2D convolutional networks with attention mechanism, boosting diagnostic accuracy from 80.81% to 85.86%.
+- Utilized Qt to develop a cross-platform GUI for medical professionals, integrating model predictions to enhance diagnostics.
+
+#### Data Scientist Intern 	
+**Today’s Vision**	
+*Suzhou, China*
+Jun. 2019 – Aug. 2019
+- Leveraged A/B testing and regression analysis to optimize ad targeting, boosting click-through rates by 15%.
+- Deployed interactive Tableau dashboards that distilled complex data into clear insights for informed and data-driven decisions.
 
 ---
 
 ### 🏆 Publications & Achievements
-- **Silver Medalist** in Kaggle Competition: LEAP - Atmospheric Physics using AI (ClimSim), July 2024. [Placed 47th out of 693 teams](https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523105).
+- Li, M., *Kong, L.*, & Kriegman, S., “Generating Freeform Endoskeletal Robots,” In the International Conference on Learning Representations (ICLR 2025). Selected as a *Highlight Paper*. [Open Review](https://openreview.net/forum?id=awvJBtB2op).
 
-- "Freeform Endoskeletal Robot Design and Simulation" (in preparation). **Lingji Kong**, Muhan Li, Sam Kriegman. To be submitted to the *International Conference on Learning Representations (ICLR) 2025*.
+- **Silver Medalist** in Kaggle Competition: LEAP - Atmospheric Physics using AI (ClimSim), July 2024. [Placed 47th out of 693 teams](https://www.kaggle.com/competitions/leap-atmospheric-physics-ai-climsim/discussion/523105).
 
 - H. Sun et al., "SAH-NET: Structure-Aware Hierarchical Network for Clustered Microcalcification Classification in Digital Breast Tomosynthesis," in *IEEE Transactions on Cybernetics*, vol. 54, no. 4, pp. 2345-2357, April 2024, doi: [10.1109/TCYB.2022.3211499](https://doi.org/10.1109/TCYB.2022.3211499).
 
 ---
 
 ### 💻  Projects
-#### **Text-To-Soft-Toy Web Application**  
+#### **Text-To-Soft-Robot Web Application**  
 **Northwestern University | Sep. – Dec. 2023**
-- Implemented text input bars and a 3D preview widget using JavaScript and CSS, enabling users to type prompts and select generated toy designs within the user interface.
-- Developed an AWS Lambda function to process text prompts and generate 3D printable molds of toy designs in STL format, triggered by PUT events in the S3 bucket for uploading text files. Enabled users to pour silicone into these molds to create physical soft toys from their text prompts.
-- Leveraged PySQL for database interactions, supporting key operations such as file upload, download, and user management tasks including account creation, login, and account switching.
+- Developed a full-stack web application to automate the 3D printing pipeline for silicone soft robots; generated the SDK for API from Amazon API Gateway and hosted the frontend in an AWS S3 bucket.
+- Implemented text search in user interface using JavaScript, allowing clients to utilize Shape-E to generate, preview, and download custom mold designs from text prompts.
+- Utilized AWS Lambda functions to monitor S3 bucket PUT events, triggering real-time processing of uploaded 3D mesh file.
 
 #### **Fine-Tuning LLMs for Complex Tasks**  
 **Northwestern University | Jan. 2023– July 2024**
-- Fine-tuned GPT-2 with PyTorch and advanced prompt engineering on the MultipleQA datasets, achieving a 43% accuracy rate on multiple-choice questions.
-- Applied LoRA to fine-tune Gemini, enabling the model to accurately recover prompts from original and modified texts, achieving a 0.66 similarity score between the recovered and original prompts.
-- Utilized QLoRA with 4-bit quantization to fine-tune Gemini 2, enhancing its ability to select the most human-preferred output between competing LLM outputs.
-
-#### **Cross Domain Text Summarization Project**  
-**Northwestern University | Mar. – July 2023**
-- Integrated 6 datasets from diverse domains—including news headlines, scientific abstracts, dialogues, stories, and legal texts—to create a balanced cross-domain summarization benchmark.
-- Collaborated with a team of 5 to apply Sentence-BERT for retrieving the most relevant documents, which enabled incremental fine-tuning of the PEGASUS model and led to improvements in ROUGE scores (R-1/R-2/R-L) from 34/14/24 to 35/17/27, outperforming the original state-of-the-art model.
-- Utilized Retrieval-Augmented Generation to generate document embeddings and applied few-shot learning on LLMs to produce more human-preferred summaries.
+- Enhanced summarization models’ generalizability across different domains; utilized Sentence-BERT to embed and retrieve the most relevant documents; incrementally fine-tune the PEGASUS model on the selected documents and improved the ROUGE scores (R-1/R-2/R-L) from 34/14/24 to 35/17/27.
+- Developed a system to retrieve the prompt giving a pair of unmodified and modified texts; generated training data using Gemini; fine-tuned the Mistral model with LoRA, increasing the similarity score from 0.59 to 0.66.
 
 #### **3D Farming Game Demo**  
 **Northwestern University | Sep. – Dec. 2022**
-- Independently developed a 3D game demo inspired by Stardew Valley using Unity and C#, managing all aspects of development from sculpting the landscape to coding game mechanics.
-- Integrated free visual and sound assets to create an engaging and immersive player experience.
+- Engineered a farming game system using C#, featuring inventory management, farming mechanics, and NPC interactions.
+- Created an interactive 3D world using Unity by integrating free audio and visual assets to enhance player engagement.
 
 #### **Text Autocompletion**  
 **University of Washington | Jan. – Mar. 2022**

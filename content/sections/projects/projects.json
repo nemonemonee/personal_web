@@ -24,6 +24,20 @@
     },
     {
       "visible": true,
+      "category": "🔬 Research Project",
+      "title": "Text-To-Robot",
+      "description": "Text-to-Robot leverages text prompts to automatically generate robot designs and training reward functions.",
+      "tags": ["LLMs", "LangChain", "Text-To-3D", "Robotics"],
+      "image": {
+        "src": "../../images/t2r.png",
+        "alt": "t2r",
+        "linkTo": ""
+      },
+      "links": [
+      ]
+    },
+    {
+      "visible": true,
       "category": "🎓 Academic Project",
       "title": "Cross Domain Text Summarization",
       "description": "CRAFT (CRoss-domain Abstractive Summarization through Incremental Fine-Tuning): This project developed a general model for cross-domain text summarization. The methodology involves incrementally fine-tuning the model using the k most similar documents from a diverse collection of datasets. By leveraging incremental fine-tuning, CRAFT adapts effectively to multiple domains. In testing, it outperformed the baseline PEGASUS on the CNN/DailyMail dataset, demonstrating its capability to generalize across various NLP tasks.",
